@@ -1,4 +1,4 @@
-# FizzBuzz
+# Shopping Cart
 
 ## Problem Description
 
@@ -8,12 +8,12 @@ In this exercise, we’ll implement the code for a checkout system that handles 
 
 Our aim is to implement a supermarket checkout system that calculates the total price of a number of items. In a normal supermarket, things are identified using Stock Keeping Units, or SKUs. In our store, we’ll use individual letters of the alphabet (A, B, C, and so on). Our goods are priced individually. In addition, some items are multipriced: buy n of them, and they’ll cost you y cents. For example, item A might cost 50 cents individually, but this week we have a special offer: buy three As and they’ll cost you 1.30€. In fact this week’s prices are:
 
-|| Item || Price per unit || Special offer ||
----------------------------------------------
-| A     | 50              | 3 for 130       |
-| B     | 30              | 2 for 45        |
-| C     | 20              | n/a             |
-| D     | 15              | n/a             |
+| Item | Price per unit | Special offer |
+|------|----------------|---------------|
+| A    | 50             | 3 for 130     |
+| B    | 30             | 2 for 45      |
+| C    | 20             | n/a           |
+| D    | 15             | n/a           |
 
 ### A Potential API
 
